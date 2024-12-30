@@ -1,0 +1,1 @@
+locust -f locust.py --run-time 10s --spawn-rate 2 --users 2 --headless -H http://localhost:5006
